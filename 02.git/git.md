@@ -106,9 +106,32 @@ Agrupación de cambios en uno o varios archivos listos para registrar los cambio
 ![bg fit right](./img/git-commit.png)
 
 ``git commit -m 'agregado nuevo archivo'``
+Registrar los cambios en el repositorio
 
 ---
 
+# Cambios
+
+1. En el mismo archivo realizar algunos cambios y guardar el documento modificado
+
+---
+
+<style scoped>section{font-size:30px;}</style>
+![bg fit right](./img/git-diff.png)
+
+``git diff``
+¿Qué ha cambiado en nuestro archivo?
+
+---
+
+# Flujo básico de trabajo en un repo
+
+1. ``git status`` (cómo está mi repo)
+2. Realizar cambios
+3. ``git add`` (agregar cambios al *staging area*)
+4. ``git commit`` (guardar los cambios de la actual versión)
+
+---
 
 # Recursos
 
