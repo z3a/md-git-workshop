@@ -193,6 +193,13 @@ Ups! ese último commit no está bien
 
 ---
 
+![bg right:35% fit](./img/git-branch-1.png)
+
+``git branch nuevo-carril``
+Crea la nueva ``rama``
+
+``git checkout nuevo-carril``
+Cambiamos a la nueva ``rama``
 
 ---
 
