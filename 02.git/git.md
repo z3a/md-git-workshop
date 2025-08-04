@@ -162,13 +162,37 @@ El contenido del archivo consiste en reglas por cada renglón que especifican a 
 * El último ``commit`` en el repositorio se llama ``HEAD``
 
 ---
-
-![bg right](./img/git-checkout.png)
+<style scoped>section{font-size:30px;}</style>
 
 ``git checkout [hash] [archivo]``
 Restaura una versión anterior del archivo especificado
 
 ``git checkout 7be606e mi-archivo.md``
+
+![bg fit right](./img/git-checkout-file.png)
+
+---
+
+``git checkout HEAD mi-archivo.md``
+Regresa a la versión guardada en el último commit
+
+---
+
+Ups! ese último commit no está bien
+
+![bg right:45% fit](./img/git-revert.png)
+
+``git revert [commit ID]``
+
+---
+# Ramas (branching)
+
+* El repo tiene una carretera principal llamada ``main``
+* Si queremos hacer un nuevo carril, no queremos afectar los ya existentes
+* Para esto creamos encerramos el lugar de trabajo y cuando esté listo agregamos el nuevo carril a la carretera principal
+
+---
+
 
 ---
 
