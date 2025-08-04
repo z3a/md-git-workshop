@@ -222,7 +222,9 @@ unimos los cambios de la rama ``nuevo-carril`` en ``main``
 
 ---
 
-# Recursos
+# Links
 
 * [Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 * [Git-it: un curso para usar aprender a usar Git ](https://github.com/jlord/git-it-electron)
+* [Hello Git](https://github.com/mouredev/hello-git)
+* [El control de versiones con Git](https://swcarpentry.github.io/git-novice-es/instructor/index.html)
