@@ -133,6 +133,45 @@ Registrar los cambios en el repositorio
 
 ---
 
+<style scoped>section{font-size:30px;}</style>
+![bg fit right](./img/git-log.png)
+
+``git log``
+Ver el historial de cambios
+
+---
+
+# .gitignore
+
+El archivo ``.gitignore`` permite no controlar versiones de directorios o documentos 
+
+![bg fit left](./img/git-ignore-1.png)
+
+---
+
+El contenido del archivo consiste en reglas por cada renglón que especifican a git que ignorar
+![bg right](./img/git-ignore-2.png)
+
+---
+
+# El historial de cambios
+
+<style scoped>section{font-size:30px;}</style>
+
+* Cada ``commit`` es identificado por un hash: ``7be606e``
+* El último ``commit`` en el repositorio se llama ``HEAD``
+
+---
+
+![bg right](./img/git-checkout.png)
+
+``git checkout [hash] [archivo]``
+Restaura una versión anterior del archivo especificado
+
+``git checkout 7be606e mi-archivo.md``
+
+---
+
 # Recursos
 
 * [Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
