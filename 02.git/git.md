@@ -203,6 +203,25 @@ Cambiamos a la nueva ``rama``
 
 ---
 
+<style scoped>section{font-size:30px;}</style>
+
+![bg right:35% fit](./img/git-branch-2.png)
+
+Para agregar los cambios a la rama principal:
+
+1. ``git checkout main`` 
+cambiamos a la ``rama`` principal
+
+---
+
+<style scoped>section{font-size:30px;}</style>
+
+![bg right:35% fit](./img/git-branch-3.png)
+2. ``git merge nuevo-carril``
+unimos los cambios de la rama ``nuevo-carril`` en ``main``
+
+---
+
 # Recursos
 
 * [Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
