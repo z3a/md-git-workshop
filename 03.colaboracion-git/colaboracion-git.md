@@ -154,6 +154,14 @@ El repo en GH actualizado
 
 ---
 
+<style scoped>section{font-size:25px;}</style>
+
+![bg right:50% fit](./img/push-to-gh.png)
+``git push``
+Sincronizar los cambios con GH
+
+---
+
 # Clonar un repo
 
 Clonar (*clone*) un repositorio es tener hacer una copia idéntica en otro lugar
