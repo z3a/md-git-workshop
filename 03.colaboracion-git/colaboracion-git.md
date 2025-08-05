@@ -227,5 +227,37 @@ Propuesta para incluir los cambios de un branch en otro
 2. ``git checkout nueva-rama``: Cambiamos a la rama creada
 3. Hacemos cambios
 4. ``git add`` + ``git commit``
-5. ``git push``: Publicamos en GH la nueva rama
+5. ``git push github nueva-rama``: Publicamos en GH la nueva rama
 6. Creamos el ``pull request``
+
+---
+
+<style scoped>section{font-size:25px;}</style>
+
+En Github, vamos a la pestaña ``Pull Request`` del repo donde queremos que incluyan nuestros cambios
+
+![bg right:40% fit](./img/github-pr-1.png)
+
+---
+
+<style scoped>section{font-size:25px;}</style>
+
+En llenamos los campos del formulario
+
+![bg right:40% fit](./img/github-pr-2.png)
+
+---
+
+<style scoped>section{font-size:25px;}</style>
+
+Al propietario del repo le aparece la solicitud para aprobar o no
+
+![bg right:40% fit](./img/github-pr-3.png)
+
+---
+
+<style scoped>section{font-size:25px;}</style>
+
+Aprobar el ``pull request`` es hacer un ``git merge`` de las ramas
+
+![bg right:40% fit](./img/github-pr-4.png)
