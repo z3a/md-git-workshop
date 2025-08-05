@@ -220,3 +220,12 @@ Cuando trabajamos en un repositorio con más personas **SIEMPRE** antes de hacer
 Propuesta para incluir los cambios de un branch en otro
 
 ---
+
+# Flujo de trabajo
+
+1. ``git branch nueva-rama``: Crear un nuevo ``branch``
+2. ``git checkout nueva-rama``: Cambiamos a la rama creada
+3. Hacemos cambios
+4. ``git add`` + ``git commit``
+5. ``git push``: Publicamos en GH la nueva rama
+6. Creamos el ``pull request``
