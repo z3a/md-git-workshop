@@ -132,6 +132,13 @@ Cambios en la configuración de nuestra copia local
 
 ---
 
+<style scoped>section{font-size:25px;}</style>
+
+![bg right:50% fit](./img/git-push.png)
+**Sincronizar con Github**
+
+---
+
 # Clonar un repo
 
 Clonar (*clone*) un repositorio es tener hacer una copia idéntica en otro lugar
