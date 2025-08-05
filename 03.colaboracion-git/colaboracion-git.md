@@ -24,6 +24,17 @@ paginate: false
 
 ---
 
+# Objetivos de la sesión
+
+1. Crear cuenta en Github
+2. Crear y agregar llaves ``ssh`` a Github
+3. Crear un nuevo repositorio
+4. Sincronizar repo local con remoto en Github
+5. Clonar un repo en Github 
+6. Hacer un ``pull request``
+
+---
+
 # Git es un sistema distribuido
 
 Permite tener múltiples copias sincronizadas
@@ -175,22 +186,18 @@ Hacer una copia local
 
 ![bg right:40% fit](./img/git-clone.png)
 
-``git clone md-git-workshop nueva-copia``
+``git clone git@github.com:z3a/md-git-workshop.git``
 
 ---
 
-# Remote
+<style scoped>section{font-size:25px;}</style>
 
-Define una conexión con un repo remoto
+Obtener la dirección de un repo en Github
 
-```
-[remote "origin"]
-        url = /Users/zea/iCloud/Documents/2025/md-git-workshop
-        fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "main"]
-        remote = origin
-        merge = refs/heads/main
-```
+![bg right:40% fit](./img/github-clone-url.png)
+
+``git clone git@github.com:z3a/md-git-workshop.git``
+
 ---
 
 # Flujo de trabajo con repo remoto
@@ -201,3 +208,24 @@ Define una conexión con un repo remoto
 4. ``git push``: *subimos* nuestros cambios al repositorio
 5. ``git pull``: sincronizamos nuestra copia de trabajo
 6. Repetimos 2-5
+
+---
+
+Cuando trabajamos en un repositorio con más personas **SIEMPRE** antes de hacer cambios debemos actualizar nuestra copia local con ``git pull``
+
+---
+
+# Pull Request
+
+Propuesta para incluir los cambios de un branch en otro
+
+---
+
+# Flujo de trabajo
+
+1. ``git branch nueva-rama``: Crear un nuevo ``branch``
+2. ``git checkout nueva-rama``: Cambiamos a la rama creada
+3. Hacemos cambios
+4. ``git add`` + ``git commit``
+5. ``git push``: Publicamos en GH la nueva rama
+6. Creamos el ``pull request``
