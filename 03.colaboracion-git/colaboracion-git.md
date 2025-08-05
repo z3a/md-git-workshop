@@ -23,3 +23,10 @@ paginate: false
 * ``git merge [nombre]``: Une cambios de la rama especificada en la actual
 
 ---
+
+# Git es un sistema distribuido
+
+Permite tener múltiples copias sincronizadas
+
+---
+
