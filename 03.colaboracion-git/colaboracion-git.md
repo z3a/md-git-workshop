@@ -139,6 +139,21 @@ Cambios en la configuración de nuestra copia local
 
 ---
 
+<style scoped>section{font-size:25px;}</style>
+
+![bg right:60% fit](./img/github-after-push.png)
+El repo en GH actualizado
+
+---
+
+# Flujo de trabajo
+
+1. Hacer cambios
+2. ``git add`` + ``git commit``
+3. ``git push``
+
+---
+
 # Clonar un repo
 
 Clonar (*clone*) un repositorio es tener hacer una copia idéntica en otro lugar
