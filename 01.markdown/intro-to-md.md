@@ -4,6 +4,7 @@ theme: uncover
 class: invert
 paginate: false
 ---
+<!-- markdownlint-disable -->
 
 # Markdown (MD)
 
@@ -13,8 +14,10 @@ paginate: false
 ¿Qué les gusta o molesta de esta forma de trabajo?
 
 ---
+<!-- markdownlint-disable-line -->
+<style scoped>section{font-size:30px;}</style>
 
-# Lo que me parece interesante de MD
+# ¿Por qué MD?
 
 1. Es ligero
 2. Sintaxis sencilla
@@ -108,7 +111,7 @@ Dos paradigmas en los procesadores de texto
 * Primer elemento
 * Segundo elemento
   * Uno
-  *Otro
+  * Otro
 * Tercer elemento
 ```
 
@@ -179,11 +182,16 @@ En una línea de texto puedo usar `esto para incluir código`
 
 # Tiempo de práctica
 
-Selección de una solución de Voltaje y trasncripción a MD
+Selección de una solución de Voltaje y transcripción a MD
 
 ---
 
-**Exportar a otros formatos**
+# Flavors
+
+* [CommonMark](https://commonmark.org)
+* [Github Flavored MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
+* [MultiMarkDown](https://fletcherpenney.net/multimarkdown/)
 
 ---
 <style scoped>section{font-size:30px;}</style>
@@ -198,6 +206,7 @@ Selección de una solución de Voltaje y trasncripción a MD
   * [Hugo](https://gohugo.io/)
   * [Otros](https://jamstack.org/generators/)
 * [**Obsidian**: similar a Notion](https://obsidian.md)
+* [**Fountain**](https://fountain.io)
 
 ---
 
