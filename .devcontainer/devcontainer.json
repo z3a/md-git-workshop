@@ -1,0 +1,48 @@
+{
+  "name": "mg-git",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+				"editor.tabSize": 4,
+				"terminal.integrated.fontFamily": "Monoki Nerd Font",
+				"terminal.integrated.fontLigatures.enabled": true,
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.profiles.linux": {
+					"zsh": {
+						"path": "/bin/zsh",
+						"icon": "terminal-ubuntu"
+					}
+				}
+			},
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-spanish"
+      ]
+    }
+  },
+  // Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": true,
+			"installOhMyZsh": true,
+			"installOhMyZshConfig": true,
+			"configureZshAsDefaultShell": true,
+      "username": "markdown",
+      "userUid": "2000",
+		},
+		"ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
+			"plugins": "zsh-autosuggestions zsh-syntax-highlighting",
+			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git"
+		}
+	},
+  "mounts": [
+    "source=${localEnv:HOME}/.gitconfig,target=/home/markdown/.gitconfig,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.ssh/id_ed25519,target=/home/markdown/.ssh/id_ed25519,type=bind,consistency=cached"
+  ],
+  "remoteUser": "markdown",
+  "postCreateCommand": ".devcontainer/scripts/post-create.sh"
+}
