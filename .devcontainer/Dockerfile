@@ -13,6 +13,13 @@ RUN groupadd --gid $USER_GID $USERNAME && \
     apt-get install -y ca-certificates openssl git curl wget && \
     rm -rf /var/lib/apt/lists/*
 
+# Add Google Chrome repository
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+
+# Install Chrome
+RUN apt-get update && apt-get -y install google-chrome-stable
+
 # Default shell
 USER $USERNAME
 
