@@ -4,6 +4,7 @@ theme: uncover
 class: invert
 paginate: false
 ---
+<!-- markdownlint-disable -->
 
 # Control de versiones con Git
 
