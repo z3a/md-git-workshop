@@ -22,6 +22,8 @@ Sistema para guardar el historial y hacer seguimiento de cambios de edición en 
 
 ---
 
+# Git 
+
 * Es fácil de configurar
 * Cada copia de un repositorio tiene todo el proyecto y su historial
   * `control+z` 
@@ -45,8 +47,21 @@ Sistema para guardar el historial y hacer seguimiento de cambios de edición en 
 * [Clientes gráficos](https://git-scm.com/downloads/guis)
 
 ---
+<style scoped>section{font-size:25px;}</style>
 
-# Configuración inicial
+![bg fit right:80%](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
+
+VS Code
+
+---
+
+Abrir directorio de trabajo
+
+![bg fit right:60%](./img/vs-open.png)
+
+---
+
+# Configuración inicial de Git
 
 ```bash
 git config --global user.name "Nombre"
@@ -61,8 +76,7 @@ git config --list
 
 **Repositorio: directorio donde reside un conjunto de archivos que está bajo control de versiones**
 
-1. Crear un directorio usando el explorador de archivos
-2. ``git init``
+1. ``git init``
 
 ![](./img/vs-git-init.png)
 
@@ -225,7 +239,10 @@ unimos los cambios de la rama ``nuevo-carril`` en ``main``
 
 # Links
 
+* [VS Code Getting Started](https://code.visualstudio.com/docs/introvideos/basics)
+* [VS Code - User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)
 * [Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 * [Git-it: un curso para usar aprender a usar Git ](https://github.com/jlord/git-it-electron)
 * [Hello Git](https://github.com/mouredev/hello-git)
 * [El control de versiones con Git](https://swcarpentry.github.io/git-novice-es/instructor/index.html)
+* [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
