@@ -113,7 +113,7 @@ Cómo está nuestro repo
 
 # Staging area
 
-Agrupación de cambios en uno o varios archivos listos para registrar los cambios en el historial
+Agrupación de cambios en uno o varios archivos listos para registrarlos en el historial
 
 ---
 
@@ -144,7 +144,7 @@ Registrar los cambios en el repositorio
 1. ``git status`` (cómo está mi repo)
 2. Realizar cambios
 3. ``git add`` (agregar cambios al *staging area*)
-4. ``git commit`` (guardar los cambios de la actual versión)
+4. ``git commit`` (guardar los cambios de la versión actual)
 
 ---
 
@@ -158,7 +158,7 @@ Ver el historial de cambios
 
 # .gitignore
 
-El archivo ``.gitignore`` permite no controlar versiones de directorios o documentos 
+El archivo ``.gitignore`` excluye del control de versiones los directorios o documentos especificados 
 
 ![bg fit left](./img/git-ignore-1.png)
 
@@ -203,8 +203,9 @@ Ups! ese último commit no está bien
 # Ramas (branching)
 
 * El repo tiene una carretera principal llamada ``main``
-* Si queremos hacer un nuevo carril, no queremos afectar los ya existentes
-* Para esto creamos encerramos el lugar de trabajo y cuando esté listo agregamos el nuevo carril a la carretera principal
+* Si queremos hacer un nuevo carril, esperamos no afectar los ya existentes
+ * Creamos y aislamos el nuevo lugar de trabajo.
+ * Cuando el carril esté listo, lo agregamos a la carretera principal
 
 ---
 
