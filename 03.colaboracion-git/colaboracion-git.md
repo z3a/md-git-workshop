@@ -57,11 +57,11 @@ Servicio de alojamiento de repositorios
 ``ssh-keygen -t ed25519 -C "your_email@example.com"``
 
 ---
-<style scoped>section{font-size:30px;}</style>
+<style scoped>section{font-size:27px;}</style>
 
 # Agregar la llave a nuestra cuenta
 
-``pbcopy < ~/.ssh/id_ed25519.pub``
+``pbcopy < ~/.ssh/id_ed25519.pub | [win] clip < ~/.ssh/id_ed25519.pub ``
 o
 ``cat ~/.ssh/id_ed25519.pub``
 
