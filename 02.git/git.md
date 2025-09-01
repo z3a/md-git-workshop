@@ -214,6 +214,7 @@ cambiamos a la ``rama`` principal
 2. ``git merge nuevo-carril``
 unimos los cambios de la rama ``nuevo-carril`` en ``main``
 
+---
 
 # Links
 
